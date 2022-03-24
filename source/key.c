@@ -46,7 +46,9 @@ typedef enum
 /*==================[internal data declaration]==============================*/
 
 static estPul_enum estSW[BOARD_SW_ID_TOTAL];
-static bool eventSW[BOARD_SW_ID_TOTAL];
+static bool pushedSW[BOARD_SW_ID_TOTAL];
+static bool releasedSW[BOARD_SW_ID_TOTAL];
+static bool clickedSW[BOARD_SW_ID_TOTAL];
 
 /*==================[internal functions declaration]=========================*/
 
@@ -65,7 +67,7 @@ void key_init(void)
     for (i = 0 ; i < BOARD_SW_ID_TOTAL ; i++)
     {
         estSW[i] = ESPERANDO_ACTIVACION;
-        eventSW[i] = 0;
+        pushedSW[i] = 0;
     }
 }
 
@@ -73,9 +75,22 @@ bool key_getPressEv(board_swId_enum id)
 {
     bool ret = false;
 
-    if (eventSW[id])
+    if (pushedSW[id])
     {
-        eventSW[id] = 0;
+        pushedSW[id] = 0;
+        ret = true;
+    }
+
+    return ret;
+}
+
+bool key_getReleasedEv(board_swId_enum id)
+{
+    bool ret = false;
+
+    if (releasedSW[id])
+    {
+    	releasedSW[id] = 0;
         ret = true;
     }
 
@@ -93,7 +108,7 @@ void key_periodicTask1ms(void)
             case ESPERANDO_ACTIVACION:
                 if (board_getSw(i))
                 {
-                    eventSW[i] = 1;
+                    pushedSW[i] = 1;
                     estSW[i] = ESPERANDO_DESACTIVACION;
                 }
                 break;
@@ -101,6 +116,7 @@ void key_periodicTask1ms(void)
             case ESPERANDO_DESACTIVACION:
                 if (!board_getSw(i))
                 {
+                	releasedSW[i]=1;
                     estSW[i] = ESPERANDO_ACTIVACION;
                 }
                 break;

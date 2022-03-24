@@ -53,6 +53,7 @@ extern "C" {
 void key_init(void);
 bool key_getPressEv(board_swId_enum id);
 void key_periodicTask1ms(void);
+bool key_getReleasedEv(board_swId_enum id);
 
 /*==================[cplusplus]==============================================*/
 #ifdef __cplusplus

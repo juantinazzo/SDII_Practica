@@ -1,6 +1,6 @@
-/home/juan/Documents/MCUXpresso/workspace/P1E1/drivers/fsl_clock.h:438:20:CLOCK_EnableClock	24	static
-/home/juan/Documents/MCUXpresso/workspace/P1E1/drivers/fsl_port.h:243:20:PORT_SetPinConfig	32	static
-/home/juan/Documents/MCUXpresso/workspace/P1E1/drivers/fsl_port.h:346:20:PORT_SetPinMux	24	static
+D:\Users\juant\Downloads\P1E1\drivers/fsl_clock.h:438:20:CLOCK_EnableClock	24	static
+D:\Users\juant\Downloads\P1E1\drivers/fsl_port.h:243:20:PORT_SetPinConfig	32	static
+D:\Users\juant\Downloads\P1E1\drivers/fsl_port.h:346:20:PORT_SetPinMux	24	static
 ../board/pin_mux.c:103:6:BOARD_InitBootPins	8	static
 ../board/pin_mux.c:125:6:BOARD_InitPins	8	static
 ../board/pin_mux.c:162:6:BOARD_InitLCDPins	8	static

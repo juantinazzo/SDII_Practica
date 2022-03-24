@@ -3,6 +3,7 @@
  * @file    P1E1.c
  * @brief   Application entry point.
  */
+
 #include <stdio.h>
 #include "board.h"
 #include "peripherals.h"
@@ -38,13 +39,13 @@ void mefLed(void)
             break;
 
         case EST_MEF_LED_ON:
-            if (key_getPressEv(BOARD_SW_ID_1)){
+            if (key_getPressEv(BOARD_SW_ID_3)){
                 board_setLed(BOARD_LED_ID_ROJO, BOARD_LED_MSG_OFF);
                 estMefLed = EST_MEF_LED_OFF;
             }
             break;
         case EST_MEF_LED_OFF:
-            if (key_getPressEv(BOARD_SW_ID_3)){
+            if (key_getPressEv(BOARD_SW_ID_1)){
                 board_setLed(BOARD_LED_ID_ROJO, BOARD_LED_MSG_ON);
                 estMefLed = EST_MEF_LED_ON;
             }

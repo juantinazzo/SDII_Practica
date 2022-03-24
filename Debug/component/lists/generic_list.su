@@ -1,5 +1,5 @@
-/home/juan/Documents/MCUXpresso/workspace/P1E1/drivers/fsl_common.h:552:28:DisableGlobalIRQ	16	static
-/home/juan/Documents/MCUXpresso/workspace/P1E1/drivers/fsl_common.h:583:24:EnableGlobalIRQ	24	static
+D:\Users\juant\Downloads\P1E1\drivers/fsl_common.h:552:28:DisableGlobalIRQ	16	static
+D:\Users\juant\Downloads\P1E1\drivers/fsl_common.h:583:24:EnableGlobalIRQ	24	static
 ../component/lists/generic_list.c:16:22:LIST_Error_Check	24	static
 ../component/lists/generic_list.c:62:6:LIST_Init	16	static
 ../component/lists/generic_list.c:85:15:LIST_GetList	16	static

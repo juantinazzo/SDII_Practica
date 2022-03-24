@@ -1,5 +1,6 @@
-utilities/fsl_debug_console.o utilities/fsl_debug_console.d: \
- ../utilities/fsl_debug_console.c ../utilities/fsl_debug_console_conf.h \
+source/P1E2.o source/P1E2.d: ../source/P1E2.c \
+ D:\Users\juant\Downloads\P1E1\board/board.h \
+ D:\Users\juant\Downloads\P1E1\board/clock_config.h \
  D:\Users\juant\Downloads\P1E1\drivers/fsl_common.h \
  D:\Users\juant\Downloads\P1E1\device/fsl_device_registers.h \
  D:\Users\juant\Downloads\P1E1\device/MKL43Z4.h \
@@ -11,12 +12,20 @@ utilities/fsl_debug_console.o utilities/fsl_debug_console.d: \
  D:\Users\juant\Downloads\P1E1\device/MKL43Z4_features.h \
  D:\Users\juant\Downloads\P1E1\drivers/fsl_clock.h \
  D:\Users\juant\Downloads\P1E1\drivers/fsl_common.h \
- ../utilities/fsl_str.h \
+ D:\Users\juant\Downloads\P1E1\drivers/fsl_gpio.h \
+ D:\Users\juant\Downloads\P1E1\board/peripherals.h \
+ D:\Users\juant\Downloads\P1E1\board/pin_mux.h \
+ D:\Users\juant\Downloads\P1E1\board/clock_config.h \
+ D:\Users\juant\Downloads\P1E1\device/MKL43Z4.h \
+ D:\Users\juant\Downloads\P1E1\utilities/fsl_debug_console.h \
  D:\Users\juant\Downloads\P1E1\component\serial_manager/serial_manager.h \
  D:\Users\juant\Downloads\P1E1\component\serial_manager/serial_port_uart.h \
- D:\Users\juant\Downloads\P1E1\component\uart/uart.h \
- ../utilities/fsl_debug_console.h
-../utilities/fsl_debug_console_conf.h:
+ D:\Users\juant\Downloads\P1E1\component\uart/uart.h ../source/JT_board.h \
+ D:\Users\juant\Downloads\P1E1\drivers/fsl_port.h \
+ D:\Users\juant\Downloads\P1E1\drivers/fsl_clock.h ../source/key.h \
+ ../source/MEF.h
+D:\Users\juant\Downloads\P1E1\board/board.h:
+D:\Users\juant\Downloads\P1E1\board/clock_config.h:
 D:\Users\juant\Downloads\P1E1\drivers/fsl_common.h:
 D:\Users\juant\Downloads\P1E1\device/fsl_device_registers.h:
 D:\Users\juant\Downloads\P1E1\device/MKL43Z4.h:
@@ -28,8 +37,17 @@ D:\Users\juant\Downloads\P1E1\device/system_MKL43Z4.h:
 D:\Users\juant\Downloads\P1E1\device/MKL43Z4_features.h:
 D:\Users\juant\Downloads\P1E1\drivers/fsl_clock.h:
 D:\Users\juant\Downloads\P1E1\drivers/fsl_common.h:
-../utilities/fsl_str.h:
+D:\Users\juant\Downloads\P1E1\drivers/fsl_gpio.h:
+D:\Users\juant\Downloads\P1E1\board/peripherals.h:
+D:\Users\juant\Downloads\P1E1\board/pin_mux.h:
+D:\Users\juant\Downloads\P1E1\board/clock_config.h:
+D:\Users\juant\Downloads\P1E1\device/MKL43Z4.h:
+D:\Users\juant\Downloads\P1E1\utilities/fsl_debug_console.h:
 D:\Users\juant\Downloads\P1E1\component\serial_manager/serial_manager.h:
 D:\Users\juant\Downloads\P1E1\component\serial_manager/serial_port_uart.h:
 D:\Users\juant\Downloads\P1E1\component\uart/uart.h:
-../utilities/fsl_debug_console.h:
+../source/JT_board.h:
+D:\Users\juant\Downloads\P1E1\drivers/fsl_port.h:
+D:\Users\juant\Downloads\P1E1\drivers/fsl_clock.h:
+../source/key.h:
+../source/MEF.h:

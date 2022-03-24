@@ -1,9 +1,9 @@
-/home/juan/Documents/MCUXpresso/workspace/P1E1/drivers/fsl_clock.h:438:20:CLOCK_EnableClock	24	static
-/home/juan/Documents/MCUXpresso/workspace/P1E1/drivers/fsl_port.h:243:20:PORT_SetPinConfig	32	static
-/home/juan/Documents/MCUXpresso/workspace/P1E1/drivers/fsl_gpio.h:182:20:GPIO_PortSet	16	static
-/home/juan/Documents/MCUXpresso/workspace/P1E1/drivers/fsl_gpio.h:193:20:GPIO_PortClear	16	static
-/home/juan/Documents/MCUXpresso/workspace/P1E1/drivers/fsl_gpio.h:204:20:GPIO_PortToggle	16	static
-/home/juan/Documents/MCUXpresso/workspace/P1E1/drivers/fsl_gpio.h:223:24:GPIO_PinRead	16	static
+D:\Users\juant\Downloads\P1E1\drivers/fsl_clock.h:438:20:CLOCK_EnableClock	24	static
+D:\Users\juant\Downloads\P1E1\drivers/fsl_port.h:243:20:PORT_SetPinConfig	32	static
+D:\Users\juant\Downloads\P1E1\drivers/fsl_gpio.h:182:20:GPIO_PortSet	16	static
+D:\Users\juant\Downloads\P1E1\drivers/fsl_gpio.h:193:20:GPIO_PortClear	16	static
+D:\Users\juant\Downloads\P1E1\drivers/fsl_gpio.h:204:20:GPIO_PortToggle	16	static
+D:\Users\juant\Downloads\P1E1\drivers/fsl_gpio.h:223:24:GPIO_PinRead	16	static
 ../source/JT_board.c:4:6:board_init	32	static
 ../source/JT_board.c:63:6:board_setLed	16	static
 ../source/JT_board.c:84:6:board_getSw	16	static
